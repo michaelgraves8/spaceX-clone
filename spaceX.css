@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
+}
+
+h1 {
+    color: white;
+    position:absolute;
+    left: 10%;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.shop {
+    color: white;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    font-size: 20px;
+}
+
+.body-text {
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-around;
+    height: 275px; */
+    margin: 0;
+    position: absolute;
+    top: 25%;
+}
+
+.mission {
+    font-size: 20px;
+}
+
+.dragon {
+    font-size: 40px;
+    font-weight: bold;
+}
